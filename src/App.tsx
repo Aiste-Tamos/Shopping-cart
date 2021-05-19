@@ -64,6 +64,10 @@ const App = () => {
     ))
   };
 
+  const handleCheckout = () => {
+    alert('Checking out');
+  }
+
   if (isLoading) return <LinearProgress />;
   if (error) return <div> Something went wrong...</div>
 
@@ -75,6 +79,7 @@ const App = () => {
           addToCart={handleAddToCart}
           removeFromCart={handleRemoveFromCart}
           closeCart={() => setCartOpen(false)}
+          handleCheckout={handleCheckout}
           />
       </Drawer>
       <StyledButton onClick={()=> setCartOpen(true)}>
