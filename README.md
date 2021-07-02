@@ -1,6 +1,7 @@
 # Shopping-cart
 Shopping-cart created with React, Typescript and material-ui.
-https://aiste-tamos-shopping-cart.netlify.app/
+
+URL: https://aiste-tamos-shopping-cart.netlify.app/
 
 
 
